@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.myexamplesite.org/Tutorial/"
+     xml:base="http://www.myexamplesite.org/Tutorial/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cito="http://purl.org/spar/cito/"
+     xmlns:efo="http://www.ebi.ac.uk/efo/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.myexamplesite.org/Tutorial/">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/FrancescoVit/Ontology-for-Nutritional-Studies/master/src/ontology/ontofox.owl"/>
+        <rdfs:label xml:lang="en">TUTORIAL ONTOLOGY</rdfs:label>
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">This is the ontology developed for the ENPADASI WP4-WP3 joint workshop, held in florence on 21st October 2016. Data source is a partial export from the TUTORIAL studi in dbNP (only subject information and physiology data were retrieved and used in the workshop)</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000020">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Subject_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000135">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Physiology_Assay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0001226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0001226">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Physiology_Assay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_species -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_species">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Subject_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001627">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Subject_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Subject_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000047">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Subject_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000399 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000399">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Subject_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001799 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001799">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Subject_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004338 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004338">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Subject_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004339 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004339">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Subject_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004342 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004342">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Subject_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005093 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005093">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Subject_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.myexamplesite.org/Tutorial/TUTORIAL6 -->
+
+    <owl:Class rdf:about="http://www.myexamplesite.org/Tutorial/TUTORIAL6">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Physiology_Assay"/>
+        <efo:definition xml:lang="en">Restign metabolic rate in kcal/d</efo:definition>
+        <rdfs:label xml:lang="en">Resting metabolic rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.myexamplesite.org/Tutorial/#Physiology_Assay -->
+
+    <owl:Class rdf:about="http://www.myexamplesite.org/Tutorial/#Physiology_Assay"/>
+    
+
+
+    <!-- http://www.myexamplesite.org/Tutorial/#Subject_Information -->
+
+    <owl:Class rdf:about="http://www.myexamplesite.org/Tutorial/#Subject_Information"/>
+    
+
+
+    <!-- http://www.myexamplesite.org/Tutorial/#TUTORIAL1 -->
+
+    <owl:Class rdf:about="http://www.myexamplesite.org/Tutorial/#TUTORIAL1">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Physiology_Assay"/>
+        <efo:definition xml:lang="en">Body weight at measurement in kg</efo:definition>
+        <rdfs:label xml:lang="en">Body weight measured</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.myexamplesite.org/Tutorial/#TUTORIAL2 -->
+
+    <owl:Class rdf:about="http://www.myexamplesite.org/Tutorial/#TUTORIAL2">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Physiology_Assay"/>
+        <efo:definition xml:lang="en">Percentage of fat free mass</efo:definition>
+        <rdfs:label xml:lang="en">Fat free mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.myexamplesite.org/Tutorial/#TUTORIAL3 -->
+
+    <owl:Class rdf:about="http://www.myexamplesite.org/Tutorial/#TUTORIAL3">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Physiology_Assay"/>
+        <efo:definition xml:lang="en">Resting metabolic rate in ml/min</efo:definition>
+        <rdfs:label xml:lang="en">Resting metabolic rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.myexamplesite.org/Tutorial/#TUTORIAL4 -->
+
+    <owl:Class rdf:about="http://www.myexamplesite.org/Tutorial/#TUTORIAL4">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Physiology_Assay"/>
+        <efo:definition xml:lang="en">Metabolic efficiency in percentage</efo:definition>
+        <rdfs:label xml:lang="en">Metabolic efficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.myexamplesite.org/Tutorial/#TUTORIAL5 -->
+
+    <owl:Class rdf:about="http://www.myexamplesite.org/Tutorial/#TUTORIAL5">
+        <rdfs:subClassOf rdf:resource="http://www.myexamplesite.org/Tutorial/#Physiology_Assay"/>
+        <efo:definition xml:lang="en">Percentage of fat free mass</efo:definition>
+        <rdfs:label xml:lang="en">Fat-free mass</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
