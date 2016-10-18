@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.myexamplesite.org/Tutorial/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.myexamplesite.org/Tutorial/">
+    <Prefix name="" IRI="http://www.myexamplesite.org/Tutorial/"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="efo" IRI="http://www.ebi.ac.uk/efo/"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="cito" IRI="http://purl.org/spar/cito/"/>
+    <Prefix name="pato" IRI="http://purl.obolibrary.org/obo/pato#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="vann" IRI="http://purl.org/vocab/vann/"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Import>https://raw.githubusercontent.com/FrancescoVit/Tutorial_WP4WP3_workshop/master/ontofox_tutorial.owl</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TUTORIAL ONTOLOGY</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the ontology developed for the ENPADASI WP4-WP3 joint workshop, held in florence on 21st October 2016. Data source is a partial export from the TUTORIAL studi in dbNP (only subject information and physiology data were retrieved and used in the workshop)</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://semanticscience.org/resource/SIO_000399"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="efo:definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subject_Information"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CMO_0000135"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="efo:EFO_0004339"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="efo:EFO_0004338"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="efo:EFO_0004342"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CMO_0001226"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="efo:EFO_0005093"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0001627"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TUTORIAL6"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCBITaxon_species"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="rdf:PlainLiteral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TUTORIAL1"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CMO_0000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TUTORIAL3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TUTORIAL2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TUTORIAL5"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0000047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physiology_Assay"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="efo:EFO_0001799"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TUTORIAL4"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CMO_0000020"/>
+        <Class IRI="#Subject_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CMO_0000135"/>
+        <Class IRI="#Physiology_Assay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CMO_0001226"/>
+        <Class IRI="#Physiology_Assay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_species"/>
+        <Class IRI="#Subject_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001627"/>
+        <Class IRI="#Subject_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PATO_0000011"/>
+        <Class IRI="#Subject_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PATO_0000047"/>
+        <Class IRI="#Subject_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000399"/>
+        <Class IRI="#Subject_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="efo:EFO_0001799"/>
+        <Class IRI="#Subject_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="efo:EFO_0004338"/>
+        <Class IRI="#Subject_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="efo:EFO_0004339"/>
+        <Class IRI="#Subject_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="efo:EFO_0004342"/>
+        <Class IRI="#Subject_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="efo:EFO_0005093"/>
+        <Class IRI="#Subject_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TUTORIAL6"/>
+        <Class IRI="#Physiology_Assay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TUTORIAL1"/>
+        <Class IRI="#Physiology_Assay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TUTORIAL2"/>
+        <Class IRI="#Physiology_Assay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TUTORIAL3"/>
+        <Class IRI="#Physiology_Assay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TUTORIAL4"/>
+        <Class IRI="#Physiology_Assay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TUTORIAL5"/>
+        <Class IRI="#Physiology_Assay"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="efo:definition"/>
+        <IRI>TUTORIAL6</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Restign metabolic rate in kcal/d</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TUTORIAL6</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Resting metabolic rate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="efo:definition"/>
+        <IRI>#TUTORIAL1</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Body weight at measurement in kg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TUTORIAL1</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Body weight measured</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="efo:definition"/>
+        <IRI>#TUTORIAL2</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Percentage of fat free mass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TUTORIAL2</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fat free mass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="efo:definition"/>
+        <IRI>#TUTORIAL3</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Resting metabolic rate in ml/min</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TUTORIAL3</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Resting metabolic rate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="efo:definition"/>
+        <IRI>#TUTORIAL4</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Metabolic efficiency in percentage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TUTORIAL4</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Metabolic efficiency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="efo:definition"/>
+        <IRI>#TUTORIAL5</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Percentage of fat free mass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TUTORIAL5</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fat-free mass</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
