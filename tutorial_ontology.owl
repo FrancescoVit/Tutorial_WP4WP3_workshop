@@ -15,7 +15,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.myexamplesite.org/Tutorial/">
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/FrancescoVit/Ontology-for-Nutritional-Studies/master/src/ontology/ontofox.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/FrancescoVit/Tutorial_WP4WP3_workshop/master/ontofox_tutorial.owl"/>
         <rdfs:label xml:lang="en">TUTORIAL ONTOLOGY</rdfs:label>
         <rdfs:comment xml:lang="en"></rdfs:comment>
         <rdfs:comment xml:lang="en">This is the ontology developed for the ENPADASI WP4-WP3 joint workshop, held in florence on 21st October 2016. Data source is a partial export from the TUTORIAL studi in dbNP (only subject information and physiology data were retrieved and used in the workshop)</rdfs:comment>

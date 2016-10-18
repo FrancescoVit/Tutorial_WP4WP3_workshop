@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://raw.githubusercontent.com/FrancescoVit/Ontology-for-Nutritional-Studies/master/src/ontology/ontofox.owl#"
-     xml:base="https://raw.githubusercontent.com/FrancescoVit/Ontology-for-Nutritional-Studies/master/src/ontology/ontofox.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/FrancescoVit/Tutorial_WP4WP3_workshop/master/ontofox_tutorial.owl#"
+     xml:base="https://raw.githubusercontent.com/FrancescoVit/Tutorial_WP4WP3_workshop/master/ontofox_tutorial.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:resource="http://semanticscience.org/resource/"
@@ -15,7 +15,7 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/FrancescoVit/Ontology-for-Nutritional-Studies/master/src/ontology/ontofox.owl"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/FrancescoVit/Tutorial_WP4WP3_workshop/master/ontofox_tutorial.owl"/>
     
 
 
