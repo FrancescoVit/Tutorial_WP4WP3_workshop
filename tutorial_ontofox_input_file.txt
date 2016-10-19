@@ -1,0 +1,93 @@
+##### Import terms from PATO ontology ######
+
+[URI of the OWL(RDF/XML) output file]
+https://raw.githubusercontent.com/FrancescoVit/Ontology-for-Nutritional-Studies/master/src/ontology/ontofox.owl
+
+[Source ontology]
+PATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0000011
+http://purl.obolibrary.org/obo/PATO_0000047
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+##### Import terms from EFO Ontology ######
+
+[URI of the OWL(RDF/XML) output file]
+https://raw.githubusercontent.com/FrancescoVit/Ontology-for-Nutritional-Studies/master/src/ontology/ontofox.owl
+
+[Source ontology]
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0001799
+http://www.ebi.ac.uk/efo/EFO_0004342
+http://www.ebi.ac.uk/efo/EFO_0004338
+http://www.ebi.ac.uk/efo/EFO_0005093
+http://www.ebi.ac.uk/efo/EFO_0004339
+http://www.ebi.ac.uk/efo/EFO_0004338
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+##### Import terms from CMO ontology ######
+
+[URI of the OWL(RDF/XML) output file]
+https://raw.githubusercontent.com/FrancescoVit/Ontology-for-Nutritional-Studies/master/src/ontology/ontofox.owl
+
+[Source ontology]
+CMO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CMO_0000020
+http://purl.obolibrary.org/obo/CMO_0000135
+http://purl.obolibrary.org/obo/CMO_0001226
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+##### Import terms from OBI ontology ######
+
+[URI of the OWL(RDF/XML) output file]
+https://raw.githubusercontent.com/FrancescoVit/Ontology-for-Nutritional-Studies/master/src/ontology/ontofox.owl
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0001627
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+##### Import terms from SIO ontology ######
+
+[URI of the OWL(RDF/XML) output file]
+https://raw.githubusercontent.com/FrancescoVit/Ontology-for-Nutritional-Studies/master/src/ontology/ontofox.owl
+
+[Source ontology]
+SIO
+
+[Low level source term URIs]
+http://semanticscience.org/resource/SIO_000399
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+##### Import terms from NCBITaxon ontology ######
+
+[URI of the OWL(RDF/XML) output file]
+https://raw.githubusercontent.com/FrancescoVit/Ontology-for-Nutritional-Studies/master/src/ontology/ontofox.owl
+
+[Source ontology]
+NCBITaxon
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_species
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+
